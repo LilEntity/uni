@@ -1,2 +1,3 @@
-# Note to Self
-scugcat never dies
+### Note to Self
+
+Otters are cool
