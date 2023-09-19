@@ -1,2 +1,2 @@
-# uni
-Assignments, projects, stuffs relating to my college
+# Note to Self
+scugcat never dies
