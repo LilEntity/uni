@@ -8,18 +8,16 @@ public class GradeChecker {
         String grade;
 
         try (Scanner scan = new Scanner(System.in)) {
-
             System.out.print("Masukkan input nilai yang akan dikonversi menjadi grade : ");
             while (!scan.hasNextInt()) {
                 scan.nextLine();
                 System.out.print("...Maaf input yang anda masukkan tidak sesuai, silahkan masukkan input kembali : ");
             }
             input = scan.nextInt();
-
         }
 
         if (input >= 85) {
-            if (input >= 100) {
+            if (input > 100) {
                 grade = "InsyaAllah kumlaut bang";
             }
             else {
@@ -39,7 +37,7 @@ public class GradeChecker {
             grade = "E";
         }
         else {
-            grade = "Waduh gawat bang...";
+            grade = "Waduh...";
         }
         System.out.println(grade);
 
