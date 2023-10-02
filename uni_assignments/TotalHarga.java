@@ -32,5 +32,6 @@ public class TotalHarga {
 		}
 
 		System.out.println("Total harga : Rp " + jumlah);
+		scan.close();
 	}
 }
