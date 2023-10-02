@@ -12,5 +12,6 @@ public class PrintKarakter {
 			System.out.print(karakter + " ");
 			++karakter;
 		}
+		scan.close();
 	}
 }
