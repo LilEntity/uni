@@ -1,4 +1,4 @@
-package uni_projects;
+package uni_projects_source;
 
 public class NegativeChecker {
     public static void main(String[] args) {

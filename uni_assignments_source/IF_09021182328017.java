@@ -1,4 +1,4 @@
-package uni_assignments;
+package uni_assignments_source;
 
 public class IF_09021182328017 {
     public static void main(String[] args) {

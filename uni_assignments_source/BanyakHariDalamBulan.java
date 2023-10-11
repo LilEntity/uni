@@ -1,4 +1,4 @@
-package uni_assignments;
+package uni_assignments_source;
 import java.util.Scanner;
 
 public class BanyakHariDalamBulan {
@@ -7,7 +7,7 @@ public class BanyakHariDalamBulan {
 		try (Scanner scan = new Scanner(System.in)) {
 			String bulan = scan.next();
 				   bulan = bulan.toLowerCase();
-			
+
 			switch (bulan) {
 			case "1", "januari", "january", "3", "maret", "march", "5", "mei", "may", "7", "juli", "july", "8", "agustus", "august", "10", "oktober", "october", "12", "desember", "december":
 				System.out.println("31");

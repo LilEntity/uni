@@ -1,4 +1,4 @@
-package uni_assignments;
+package uni_assignments_source;
 import java.util.Scanner;
 
 public class PrintKarakter {

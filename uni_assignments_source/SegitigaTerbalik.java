@@ -1,4 +1,4 @@
-package uni_assignments;
+package uni_assignments_source;
 
 import java.util.Scanner;
 
@@ -6,10 +6,10 @@ public class SegitigaTerbalik {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		
+
 		System.out.print("Masukkan tinggi (atau lebar alas) segitiga : ");
 		int tinggi = scan.nextInt();
-		
+
 		// 	Jika input tidak pasti berupa integer :
 		/*
 		 * 	while (!scan.hasNextInt()) {
@@ -17,9 +17,9 @@ public class SegitigaTerbalik {
 		 * 		scan.next();
 		 * 	}
 		 * 	tinggi = scan.nextInt();
-		 * 
+		 *
 		 */
-		
+
 		System.out.print("\nSegitiga yang terbentuk :\n\n");
 		for (int i=1; i<=tinggi; ++i) {
 			for (int j=i; j<=tinggi; ++j) {

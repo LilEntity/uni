@@ -1,18 +1,18 @@
-package uni_assignments;
+package uni_assignments_source;
 import java.util.Scanner;
 
 public class KalkulatorSederhana
 {
 	static Scanner scan = new Scanner(System.in);
-	
+
 	static double angka1, angka2, hasil;
 	static String operasi;
-	
+
 	// Fungsi untuk menerima input
 	static void terimaInput()
 	{
 		System.out.print("Masukkan bilangan pertama\t: ");
-		
+
 		// Cek apakah input pertama termasuk double
 		while (!scan.hasNextDouble())
 		{
@@ -23,7 +23,7 @@ public class KalkulatorSederhana
 		angka1 = scan.nextDouble();
 
 		System.out.print("\nMasukkan bilangan kedua\t\t: ");
-		
+
 		// Cek apakah input kedua termasuk double
 		while (!scan.hasNextDouble())
 		{
@@ -32,27 +32,27 @@ public class KalkulatorSederhana
 					  "sesuai, tolong masukkan input kembali : ");
 		}
 		angka2 = scan.nextDouble();
-		
+
 		// Ambil input operasi
 		System.out.print("\nMasukkan operator yang ingin digunakan, " +
 				    "operator dapat berupa:");
-		
+
 		System.out.print("\n   tambah (+)\t\t    kurang (-) \n\t  " +
 				    "kali (* atau x)\t   dan bagi (/ atau :)");
-		
+
 		System.out.print("\nAnda bisa mereset input bilangan dengan " +
 				    "menulis \"reset\"");
-		
+
 		System.out.print("\nMasukkan operator anda\t\t: ");
 		operasi = scan.next();
 		operasi = operasi.toLowerCase();
 	}
-	
+
 	// Fungsi main
 	public static void main(String[] args)
-	{	
+	{
 		terimaInput();
-		
+
 		// Lakukan perulangan untuk kalkulasi berikutnya
 		while (true)
 		{
@@ -88,7 +88,7 @@ public class KalkulatorSederhana
 				operasi = operasi.toLowerCase();
 				continue;
 			}
-			
+
 			System.out.print("\nHasil dari " + angka1 + " " + operasi +
 					    " " + angka2 + " = " + hasil + "\n\n");
 			System.out.print("---------------------------------" +
