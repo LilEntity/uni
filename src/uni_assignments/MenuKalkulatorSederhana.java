@@ -1,4 +1,4 @@
-package uni_assignments_source;
+package uni_assignments;
 
 public class MenuKalkulatorSederhana {
 

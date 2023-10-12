@@ -1,4 +1,4 @@
-package uni_assignments_source;
+package uni_assignments;
 import java.util.Scanner;
 
 public class BanyakHariDalamBulan {
@@ -19,7 +19,7 @@ public class BanyakHariDalamBulan {
 				System.out.println("30");
 				break;
 			default:
-				System.out.println("tidak manuk akal.");
+				System.out.println("tidak manuk akal");
 			}
 		}
 	}

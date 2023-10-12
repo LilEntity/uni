@@ -1,4 +1,4 @@
-package uni_projects_source;
+package uni_projects;
 import java.util.Scanner;
 
 public class MenampilkanTeks {

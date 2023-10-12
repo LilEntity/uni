@@ -1,4 +1,4 @@
-package uni_projects_source;
+package uni_projects;
 
 public class FlippedNumberPyramid {
     public static void main(String[] args) {
