@@ -30,9 +30,11 @@ public class MainLingkaran {
         lingkaranKecil.setJariJari(4);
         lingkaranBesar.setJariJari(10);
 
-        System.out.println(lingkaranKecil.hitungLuasLingkaran());
-        System.out.println(lingkaranKecil.hitungKelilingLingkaran());
-        System.out.println(lingkaranBesar.hitungLuasLingkaran());
-        System.out.println(lingkaranBesar.hitungKelilingLingkaran());
+        System.out.println("Lingkaran kecil");
+        System.out.println("Luas\t\t: " + lingkaranKecil.hitungLuasLingkaran());
+        System.out.println("Keliling\t: " + lingkaranKecil.hitungKelilingLingkaran());
+        System.out.println("Lingkaran besar");
+        System.out.println("Luas\t\t: " + lingkaranBesar.hitungLuasLingkaran());
+        System.out.println("Keliling\t: " + lingkaranBesar.hitungKelilingLingkaran());
     }
 }
