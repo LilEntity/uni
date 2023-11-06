@@ -3,25 +3,29 @@ package uni_assignments;
 import java.util.Scanner;
 
 class Matrix {
-    int row;
-    int column;
+    private int row;
+    private int column;
     private double[][] matrix;
 
-    Matrix(int r, int c) {
+    public Matrix(int r, int c) {
         this.row = r;
         this.column = c;
         matrix = new double[r][c];
     }
 
-    double get(int r, int c) {
+    public double get(int r, int c) {
         return matrix[r][c];
-    }
-
-    void set(int r, int c, double d) {
+    } public void set(int r, int c, double d) {
         matrix[r][c] = d;
     }
 
-    void fill(String source) {
+    public int getRow() {
+        return this.row;
+    } public int getColumn() {
+        return this.column;
+    }
+
+    public void fill(String source) {
         Scanner scan = new Scanner(source);
         try {
             for (int i = 0; i < row; ++i) {
@@ -34,10 +38,10 @@ class Matrix {
                     }
                 }
             }
-            scan.close();
         } catch (Exception e) {
             System.out.println("Masukan tidak mencukupi");
         }
+        scan.close();
     }
 
     double mean(int r) {
