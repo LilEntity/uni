@@ -1,6 +1,6 @@
 package uni_assignments;
 
-public class MatrixBuilder0 {
+public class Matrix01 {
     public static void main(String[] args) {
         double[][] matrix = new double[3][];
         matrix[0] = new double[]{29.3, 30.1, 32  , 35.9, 36.7, 33, 29};

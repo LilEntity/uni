@@ -58,7 +58,7 @@ package uni_assignments;
 
 // }
 
-public class MatrixBuilder2 {
+public class MatrixBuilder20 {
     public static void main(String[] args) {
         String input = "29.3 30.1 32   35.9 36.7 33 29 " +
                        "31   27   32.3 29   25.8 33 30 " +

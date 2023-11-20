@@ -26,32 +26,21 @@ class Persegi {
         return this.keliling;
     }
 
-    private void hitungKeliling() {
+    private void hitungLuas() {
+        this.luas = sisi * sisi;
+    } private void hitungKeliling() {
         this.keliling = 4 * sisi;
-    } private void hitungLuas() {
-        this.luas = sisi * sisi;
     }
-
-    /* public void setLuas(double luas) {
-        this.luas = luas;
-        this.sisi = Math.sqrt(luas);
-        this.keliling = sisi * 4;
-    } public void setKeliling(double keliling) {
-        this.keliling = keliling;
-        this.sisi = keliling * 0.25;
-        this.luas = sisi * sisi;
-    } */
 }
 
 public class Modul10 {
     public static void main(String[] args) {
-        Persegi P1;
-
-        P1 = new Persegi(7);
+        Persegi P1 = new Persegi(7);
         System.out.println(P1.getSisi());
         System.out.println(P1.getLuas());
         System.out.println(P1.getKeliling());
 
+        // Terjadi floating point error dalam kalkulasi perkalian dua double
         P1.setSisi(12.3);
         System.out.println(P1.getSisi());
         System.out.println(P1.getLuas());
