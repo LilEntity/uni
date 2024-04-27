@@ -7,7 +7,8 @@ public class Main {
         Algorithm algo = new Algorithm();
         long[] arr = { 3, 12, 2, 1, 15, 10, 11, 14, 9, 4, 8, 7, 6, 5, 13};
 
-        algo.mergeSort(arr);
+        // algo.mergeSort(arr);
+        algo.quickSort(arr, 0, 14);
         for (long x: arr) {
             System.out.print(x + " ");
         }

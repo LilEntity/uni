@@ -1,7 +1,5 @@
 package uni_assignments.sem_2.asdl;
 
-// import java.util.Scanner;
-
 public class Algorithm {
 
     void arrSwapI(long[] arr, int index1, int index2) {
@@ -128,5 +126,25 @@ public class Algorithm {
                 k++; i++;
             }
         }
+    }
+
+    void quickSort(long[] arr, int low, int high) {
+        int i = low;
+        int j = high;
+        long pivot = arr[low];
+        while (i <= j) {
+            while (arr[i] < pivot) i++;
+            while (arr[j] > pivot) j--;
+            if (i <= j) {
+                arrSwapI(arr, i, j);
+                i++; j--;
+            }
+            if (low < j) quickSort(arr, low, j);
+            if (high > i) quickSort(arr, i, high);
+        }
+    }
+
+    public static void main(String[] args) {
+
     }
 }
