@@ -1,7 +1,6 @@
 package virtual_mindspace;
 
 import java.util.Scanner;
-import java.lang.Math;
 
 public class GuessANumber {
     public static void main(String[] args) {
